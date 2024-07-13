@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height: auto;
+    margin:40px;
+    border: solid 1px rgb(198, 191, 191);
+    position: relative;
+}
+.logo{
+    width: 15%;
+    height: 20%;
+    
+}
+
+.list-items{
+    list-style: none; 
+     display: inline;
+    margin: 0px 20px;
+    padding-right: 30px;
+}
+
+.links:hover{
+    border: solid 1px;
+    padding: 5px;
+    transition: 0.2s;
+   
+
+}
+.links{
+   
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+   
+}
+#shop{
+    height: 400px;
+    margin-top: 2%;
+    
+   
+}
+
+.first-img{
+    float: right;
+    width: 100%;
+    height:500px ;
+    
+}
+.first-img:hover{
+    filter: opacity(0.7);
+    transition: .2s;
+    cursor: pointer;
+}
+.main-heading{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 80px;
+    font-weight: 500;
+}
+.first-para{
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 80px;
+    font-family: "Satisfy", cursive;
+    font-size: larger;
+}
+.first-button{
+    background-color:#b4d3b2;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 290px;
+}
+
+#icons{
+   
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(1,150px);
+    margin-left: 35%;
+    column-gap: 50px;
+}
+.coco{
+    width: 100px;
+    height: 100px;
+
+}
+
+.below-icon{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+#about{
+    width: 100%;
+    height: 931.33px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    /* grid-template-rows: repeat(2,50%); */
+    
+}
+.about-child-img{
+    width: 100%;
+    height:465px ;
+}
+.about-child-img:hover{
+    filter: opacity(0.8);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.about-child{
+    width: 100%;
+    height:465px ;
+    padding: 70px 150px 10px 150px;
+    
+}
+.ice-box{
+    width: 100%;
+    height: 100%;
+}
+.green{
+    background-color: #b4d3b2;
+
+}
+.title{
+    font-family: "Dancing Script", cursive;
+    font-size: larger;
+}
+hr{
+    height: 0.5px;
+    background-color: white;
+    border: none;
+   
+
+}
+.pink{
+    background-color: #F4C2C2;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.mail{
+    text-align: center;
+    margin-top: 30px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.img-boxes{
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(1,100px);
+    column-gap: 10px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.sizing{
+    width: 100%;
+    height: 100%;
+}
+.social-media{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.icon{
+    margin: 0px 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color:white;
+   
+}
+.parent{
+    display: grid;
+    /* justify-content: space-evenly; */
+    margin: 40px 0px 40px 50px;
+    
+    grid-template-columns: auto auto auto;
+
+}
+.sec1{
+    margin-top:20px ;
+}
+.logo-div{
+    width: 100px;
+    height: 100px;
+
+}
+.last-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+.mail-box{
+    padding: 8px;
+    background-color: lightgrey;
+    border: none;
+    margin: 10px 0px;
+    font-family: "Satisfy", cursive;
+    font-size: larger;
+    /* display: inline-block; */
+}
+button{
+    background-color:#b4d3b2;
+    border: none;
+    padding: 10px;
+    margin-left: 115px;
+    /* display: inline-block; */
+
+}
+.brands{
+    color:lightgrey ;
+}
+.in-touch{
+    font-family: "Satisfy", cursive;
+    padding-left: 95px;
+}
+
